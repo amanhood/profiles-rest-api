@@ -1,0 +1,12 @@
+python -m venv ~/env
+source ~/env/bin/activate
+
+Install python package:
+Dango and Dango Rest Framework
+requirement.txt
+pip install -r requirement.txt
+
+django-admin.py startproject profiles_object .
+python manage.py startapp profiles_api
+
+see setting.py
