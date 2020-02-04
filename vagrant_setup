@@ -1,0 +1,5 @@
+vagrant init ubuntu/bionic64
+create Vagrantfile
+vagrant up
+vagrant ssh
+cd /vagrant
