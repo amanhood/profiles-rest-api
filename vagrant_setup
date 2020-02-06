@@ -3,3 +3,9 @@ create Vagrantfile
 vagrant up
 vagrant ssh
 cd /vagrant
+
+
+git
+git add .
+git commit -am "comment"
+git push origin

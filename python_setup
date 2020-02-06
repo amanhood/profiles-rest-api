@@ -9,4 +9,13 @@ pip install -r requirement.txt
 django-admin.py startproject profiles_object .
 python manage.py startapp profiles_api
 
-see setting.py
+1) see setting.py
+2) set model.py (UserProfile)
+3) AUTH_USER_MODEL = 'profiles_api.UserProfile' at settings.py
+
+APP path/
+vagrant ssh
+cd /vagrant
+source ~/env/bin/activate
+python manage.py makemigrations profiles_api
+python manage.py migrate
